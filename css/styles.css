@@ -228,25 +228,21 @@
 
 .navigation-menu {
     display: flex;
+    align-items: center;
 }
 
 .logo {
-    display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    display: inline-flex;
 
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-}
-
-.logo-header {
-    color: var(--header-logo, #000000);
-}
-
-.logo-accent {
     color: var(--accent, #2196F3);
+}
+
+.header__logo {
+    color: var(--header-logo, #000000);
 }
 
 .navigation-list {
@@ -628,10 +624,7 @@
 }
 
 /* Logo footer*/
-.logo-footer {
-    padding-top: 0;
-    padding-bottom: 0;
-
+.footer__logo {
     color: var(--footer-logo, #ffffff);
 }
 
