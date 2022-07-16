@@ -623,9 +623,7 @@ what is out of document stream and moves along with scrolling down the page */
 .modal {
   position: absolute;
   max-height: 581px;
-  max-width: 560px;
-  width: 100%;
-  height: 100%;
+  max-width: 528px;
   top: 50%;
   left: 50%;
   background-color: #ffffff;
@@ -664,7 +662,7 @@ what is out of document stream and moves along with scrolling down the page */
 }
 .modal__form {
   display: flex;
-  width: 100%;
+  width: 528px;
   padding: 40px;
   flex-direction: column;
 }
